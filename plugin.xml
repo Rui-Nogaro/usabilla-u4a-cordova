@@ -5,7 +5,7 @@
     <clobbers target="plugins.Usabilla" />
   </js-module>
    <hook type="before_plugin_install" src="scripts/configurations/installDependencies.js" />
-   <hook type="before_plugin_install" src="scripts/configurations/unzipAndCopyConfigurations.js" />
+   
   <platform name="android">
 <!--    <dependency id="lodash" /> -->
     <dependency id="cordova-plugin-android-fragmentactivity@0.0.9" />
