@@ -6,7 +6,7 @@
   </js-module>
   <platform name="android">
 <!--    <dependency id="lodash" /> -->
-    <dependency id="cordova-plugin-someplugin" url="https://github.com/Rui-Nogaro/cordova-plugin-android-fragmentactivity.git"/>
+    <dependency id="cordova-plugin-android-fragmentactivity" url="https://github.com/Rui-Nogaro/cordova-plugin-android-fragmentactivity.git"/>
     <config-file parent="/*" target="res/xml/config.xml">
       <feature name="UsabillaCordova">
         <param name="android-package" value="com.usabilla.UsabillaCordova" />
