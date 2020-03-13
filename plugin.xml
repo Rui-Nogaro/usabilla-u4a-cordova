@@ -8,7 +8,7 @@
    
   <platform name="android">
 <!--    <dependency id="lodash" /> -->
-    <dependency id="cordova-plugin-android-fragmentactivity@0.0.9" />
+   <!--   <dependency id="cordova-plugin-android-fragmentactivity@0.0.9" />-->
     <config-file parent="/*" target="res/xml/config.xml">
       <feature name="UsabillaCordova">
         <param name="android-package" value="com.usabilla.UsabillaCordova" />
@@ -40,7 +40,7 @@
       </feature>
     </config-file>
     <dependency id="cordova-plugin-cocoapod-support"/>
-    <dependency id="cordova-plugin-add-swift-support@2.0.2">
+   <!--  <dependency id="cordova-plugin-add-swift-support@2.0.2">-->
       <preference name="UseSwiftLanguageVersion" value="5" />
     </dependency>
     <pods-config ios-min-version="9.0" use-frameworks="true"/>
