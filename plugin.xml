@@ -4,11 +4,9 @@
   <js-module name="UsabillaCordova" src="www/Usabilla.js">
     <clobbers target="plugins.Usabilla" />
   </js-module>
-   <hook type="before_plugin_install" src="scripts/configurations/installDependencies.js" />
-   
   <platform name="android">
 <!--    <dependency id="lodash" /> -->
-   <!--   <dependency id="cordova-plugin-android-fragmentactivity@0.0.9" />-->
+    <dependency id="cordova-plugin-someplugin" url="https://github.com/Rui-Nogaro/cordova-plugin-android-fragmentactivity.git"/>
     <config-file parent="/*" target="res/xml/config.xml">
       <feature name="UsabillaCordova">
         <param name="android-package" value="com.usabilla.UsabillaCordova" />
