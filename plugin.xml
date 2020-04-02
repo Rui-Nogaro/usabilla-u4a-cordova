@@ -38,7 +38,7 @@
       </feature>
     </config-file>
     <dependency id="cordova-plugin-cocoapod-support" url="https://github.com/Rui-Nogaro/cordova-plugin-cocoapods-support.git"/>
-    <dependency url="https://github.com/akofman/cordova-plugin-add-swift-support" commit="0c8a0929abd87877bf6efa8327ff74876ea59930" id="cordova-plugin-add-swift-support"/>
+    <dependency url="https://github.com/agoncalvesos/cordova-plugin-add-swift-support" commit="513e43f94ae94ad609d49f24e7dca23a4c358095" id="cordova-plugin-add-swift-support"/>
     <pods-config ios-min-version="9.0" use-frameworks="true"/>
     <source-file src="src/ios/UsabillaCordova.swift" />
     <pod name="Usabilla" spec="~>6.0"/>
